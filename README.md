@@ -35,5 +35,7 @@ Mutators are in app/Models/User.php
 
 ## Guard (Mass Assignment)
 `>User::unguard();`
+
 `> $user->update(['avatar'=>'New Avatar']);`
+
 `>User::reguard();`
